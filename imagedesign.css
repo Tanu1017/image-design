@@ -1,0 +1,47 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
+}
+.container
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header
+{
+    text-align:center;
+	padding:32px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.flex
+{ display: flex;
+    flex-wrap: wrap;
+}
+   
+h3
+{
+    text-align: center;
+}
+.box
+{    width: 20%;
+    
+    background: white;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    margin: 20px;
+}
+
+.position {
+    position: relative;
+    top: 80px;
+}
+
+.flex .box img {
+    /* width: 200px; */
+    height: auto;
+}
